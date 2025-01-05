@@ -1,0 +1,66 @@
+/*DESCENDANT CHILD SELECTOR
+
+
+
+article p{
+  color: brown;
+}
+
+article .myPara{
+  color: chartreuse;
+}
+
+*/
+
+//  DIRECT CHILD SELECTOR
+
+
+
+
+article>p{
+  color: rgb(217, 255, 0);
+}
+
+/*
+article>p>main{
+background-color: cyan;
+color: brown;
+}
+
+
+// GENERAL SIBLING SELECTOR
+
+article~h4{
+  color: coral;
+}
+
+
+
+
+article~main,article~h5{
+  color: brown;
+  font-size: 200px;
+}
+
+article~main,{color}
+article~h4{
+  color: aqua;
+}
+
+
+
+
+
+article~main,h5{
+  color: aquamarine;
+  font-size: 100px;
+}
+
+//Adjacent sibling selector
+
+
+article+p+main{
+  color: rgb(191, 239, 15);
+}
+
+*/

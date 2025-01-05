@@ -1,0 +1,30 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+body{
+  background-color: black;
+}
+
+div{
+  color: red;
+  font-size: 50px;
+  
+}
+
+p{
+  color:#00ff;
+  font-size: larger;
+  font-style: italic;
+}
+
+.class{
+  color: rgb(244, 181, 181);
+}
+
+
+.class2{
+  color: hsla(71, 89%, 78%, 0.8);
+}

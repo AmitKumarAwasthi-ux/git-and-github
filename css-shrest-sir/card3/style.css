@@ -1,0 +1,82 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+  background-image: linear-gradient(150deg, #f1d7f6 10%, #006fba 50%, #21fceb 94%);
+  color: #fff;
+
+}
+
+
+.parent_container{
+   margin: 70px 35px 20px;
+}
+
+.child1>h2{
+  font-size: 40px;
+  font-weight: 600;
+  color: white;
+  font-family:"Gellix", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; 
+  letter-spacing: 2px;
+  margin-left: 38px;
+}
+
+.child2>h2{
+  font-size: 20px;
+  font-weight: 400;
+  color: white;
+  font-family:"Gellix", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; 
+  margin-top: 30px;
+  margin-left: 38px;
+}
+
+
+.child3{
+  height: auto;
+  width: auto;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  position: relative;
+  overflow: hidden;
+  
+  
+}
+
+.child3 img{
+  height: 320px;
+  width: 550px;
+  border-radius: 9px;
+  margin-top:30px;
+  position: relative;
+  
+  
+}
+/*
+.child3 img:hover{
+  height:100%;
+  background-color: aqua;
+  position: absolute;
+}
+
+*/
+
+div1{
+  width: 100%;
+  height: 50%;
+  background-color: #94caee;
+  transition:transform 0.5s ease ,bottom 0.5s ease;
+  position: absolute;
+  align-items: end;
+  bottom: 0;
+  left: 0;
+  color: white;
+  border: 9px;
+  z-index: 2px;
+}
+

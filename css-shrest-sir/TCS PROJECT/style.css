@@ -1,0 +1,500 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  height:100vh;                                 /*vvvi remeber*/
+  width:100vw;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(92, 211, 229);
+  position: relative;
+  overflow-x: hidden ;
+}
+.head{
+  width: 100%;
+  height: 65px;
+  background-color: rgb(0, 0,0);
+  display: flex;
+  color: white;
+  border-bottom: 2px solid rgb(34, 34, 34);
+  justify-content: space-evenly;
+  align-items: center;
+  position:fixed;
+}
+
+
+#top>.head .div>a{
+  font-size: 20px;
+  font-weight: 100;
+  color: rgb(255, 255, 255);
+  word-wrap: break-word;
+
+} 
+
+#top>.head .divfont>a{
+  font-size: 22px;
+  font-weight: 100;
+  color: rgb(255, 255, 255);
+
+} 
+
+
+#top>.head .div8>a{
+  color: rgb(199, 203, 199);
+  font-size: 14px;
+}
+.div1>a>img{
+  height: 80%px;
+  width: 150px;
+
+}
+div>a>img{
+  height: 80%px;
+  width: 60px;
+  
+}
+div>a{
+  text-decoration: none;
+  color: rgb(247, 242, 242);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#middle{
+  height:100vw;
+  width:100%;
+  background-color: rgb(26, 26, 25);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+#middle>.slider{
+  height:440px ;
+  width: auto;
+  background-color: rgb(255, 0, 85);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+} 
+
+
+#middle>.slider .slide{
+   height: 400px;
+   width: auto;
+   margin: 10px;   
+}
+
+
+#middle>.slider .slide img{
+   height: 380px;
+   width: 600px;
+   object-fit: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#middle> h2{
+   font-size: 25px;
+   color: rgb(248, 247, 247);
+   margin-top: 265px;
+   margin-left: 88px;
+   margin-bottom: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+
+#middle>.section2{
+  height:80vh;
+  width:100vw;
+  display: flex;
+  flex-direction:row;
+  gap: 20px 20px;
+ /* background-image:linear-gradient(rgba(255, 255, 255, 0.055),rgba(0, 0, 0, 0.964)) ;
+  position: relative;
+}
+
+
+#middle>.section2 img{
+  height: 450px;
+  width: 400px;
+  gap: 20px 20px;
+  border-radius: 5px;
+  
+  
+}
+
+
+/*
+#middle>.section2 img:hover{
+  scale: 1;
+  z-index: -1;
+transition: all 4s ease-in-out 1sec;
+}
+
+
+
+
+
+
+
+
+
+#middle .article1{
+  height: 1000px;
+  width: 100%;
+  background-color: white;
+ 
+}
+
+#middle .article1>div{
+  display: flex;
+  flex-direction: column;
+  
+}
+
+div a{
+  color: black;
+}
+
+
+
+
+
+
+
+.mid{
+  height:1000px;
+  width:100%;
+  background-color: rgb(26, 26, 25);
+  
+ /* flex-direction: column;
+}
+
+.mid>h4{
+  font-size: 15px;
+  color: white;
+  margin-top: 100px;
+  margin-left: 80px;
+  font-weight: 600;
+}
+
+.mid>h3{
+  font-size: 35px;
+  color: white;
+  margin-top: 70px;
+  margin-left: 120px;
+  font-weight: 450;
+  word-spacing: 5px;
+  letter-spacing: 3px;
+  padding-bottom: 30px;
+}
+
+.mid>div{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  
+}
+
+.mid>div img{
+  height: 380px;
+  width: 250px;
+  border-radius: 8px;
+  gap: 20px 20px;
+}
+
+.mid button{
+  margin-left:500px;
+  margin-top: 50px ;
+  margin-bottom: 50px;
+  height: 50px;
+  width: 200px;
+  justify-content: center;
+  padding: 10px;
+  color: white;
+  border: 2px solid white;
+  border-radius: 40px;
+  background-color: rgb(37, 37, 37);
+}
+
+
+#middle .article2{
+  height: 1000px;
+  width: 100%;
+  background-color: white;
+ 
+}
+
+
+
+
+
+
+
+
+#middle .last{
+  width: 100%;
+  height:1000px ;
+  background-color: black;
+  
+}
+
+#middle .last>.footer{
+  display: flex;
+  color: white;
+  margin-inline: 70px;
+  margin-block: 50px;
+  justify-content: space-between;
+}
+
+#middle .last>.footer>a{
+  font-size:20px ;
+  color: rgb(184, 182, 185);
+  border-bottom: 1.3px solid rgb(255, 255, 245);
+  border-spacing: 1.5px;
+  word-spacing: 5px;
+  text-decoration: none;
+}
+#middle .last>.footer>h1{
+  font-size: 32px;
+  font-family: Houschka-medium ;
+  line-height: 40px;
+}
+
+#middle .last>.image{
+  height: 350px;
+  width: 350px;
+  gap: 70px 70px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 70px;
+}
+
+#middle .last>.image img{
+ height: 350px;
+ width: 350px;
+ gap: 70px 70px;
+ margin-left: 50px;
+ align-items: center;
+ margin-bottom: 70px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#bottom{
+  height:1200px;
+  width: 100%;
+  background-color: rgb(44, 44, 44);
+}
+
+#bottom>.bsection{
+  height: 400px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1.5px solid rgb(238, 237, 237);
+  margin-bottom: 50px;
+
+}
+
+#bottom>.bsection h1{
+  color: white;
+  font-weight: 350;
+  word-spacing: 5px;
+  padding-block: 40px;
+  font-size: 60px;
+}
+
+#bottom>.bsection h3{
+  color: white;
+  padding-block: 25px;
+  font-weight: 200;
+  font-size: 20px;
+
+}
+
+
+#bottom>.bsection button{
+  height: 50px;
+  width: 235px;
+  border: 1px solid white;
+  border-radius: 40px;
+  background-color: rgb(29, 28, 28);
+  color: white;
+  text-align: center;
+  margin-bottom: 70px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#bottom>.bsection2{
+  height: 200px;
+  width: 100%;
+  background-color: rgb(29, 28, 28);
+}
+
+
+#bottom>.bsection2 h3{
+  color: white;
+  font-size: 30px;
+
+  font-weight: 600;
+
+}
+
+
+#bottom>.bsection2 h1{
+   color: white;
+   font-size: 70px;
+  
+  font-weight: 600;
+}
+
+
+#bottom .bsection2 .blogo{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: rgb(39, 39, 39);
+  border-bottom: 0.3px solid rgb(112, 112, 112);
+  margin-bottom: 20px;
+  color: rgb(249, 246, 246);
+}
+
+
+
+#middle .end{
+    height: 350px;
+    width: 100%;
+    background-color: rgb(222, 217, 217);
+    display: flex;
+}
+
+#middle .end>img{
+  height: 80px;
+  width: 100px;
+}
+
+#middle .end .end1{
+  display: flex;
+  flex-direction: column;
+  height: 50px;
+  width: 40%;
+}
+
+
+
+*/

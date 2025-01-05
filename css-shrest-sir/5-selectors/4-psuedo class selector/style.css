@@ -1,0 +1,172 @@
+/*a:link{
+  color: rgb(244, 13, 155);
+}
+
+a:active{
+  color: darkturquoise;
+}
+
+
+a:visited{
+  color: rgb(20, 240, 152);
+}
+
+a{
+  text-decoration: none;
+  padding: 20px 40px;
+  border-radius: 10px;
+}
+
+a:hover{
+  text-decoration: underline red;
+  background-color: black;
+  color: cornsilk;
+  padding: 20px 40px;
+} 
+
+
+
+
+
+
+
+
+
+article h1{
+  background-color: chartreuse !important;
+}
+
+
+article h6{
+  color: darkorange;
+}
+
+
+article :nth-child(3){
+  font-style: italic;
+}
+
+article :nth-child(odd){
+  background-color: aqua;
+}
+
+
+
+article :nth-child(even){
+  background-color: crimson;
+}
+
+
+*/
+
+
+h1:nth-last-child(4){
+  color: rgb(255, 20, 110) ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*article>p:first-of-type{
+  color: darkorange;
+}
+
+article>span:first-of-type{
+  color: fuchsia;
+}
+
+
+article>p:last-of-type{
+  color: blue;
+}
+
+article>span :last-of-type{
+  background-color: gold;
+}
+
+
+article>span:nth-of-type(3){
+  background-color: red;
+}
+
+
+article>span:nth-of-type(3){
+  background-color: coral;
+}
+
+
+article>p:nth-of-type(2){
+  background-color: cyan;
+}
+
+
+article>p>:nth-last-of-type(2)
+{
+  background-color: khaki;
+}
+
+
+
+
+
+*/
+
+
+
+
+
+input{
+  border-radius: 0%;
+  border: 5px solid greenyellow;
+}
+
+
+
+input:focus{
+  border-color: rgb(42, 30, 210) 2px dashed;
+  border: none;
+  outline-offset: 2px;
+  outline-color: rgb(255, 106, 0) 2px solid;
+}
+
+
+
+
+/*
+
+p:not(.cpara){
+  background-color: aquamarine;
+}
+
+
+p:not(#para){
+  background-color: rgb(0, 255, 89);
+}
+
+
+:is(h2,h4,h6){
+color: rgb(201, 122, 240);
+font-size: 20px;
+}
+
+:where(h1,h3,h5){
+  font-size: 32px;
+  color: rgb(226, 126, 216);
+}
+
+
+
+div:has(p){
+  color: yellow;
+}
+
+
+*/

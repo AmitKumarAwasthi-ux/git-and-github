@@ -1,0 +1,164 @@
+*{
+  box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
+}
+
+
+
+body{
+  width: 100vw;
+  height: 100vh;
+  /*background-color: black;*/
+}
+
+
+
+/*
+.container-1{
+  background-color: rgb(255, 0, 47);
+  height: 200px;
+  width: 400px;
+}
+
+.container-2{
+  background-color: blue;
+  height: 300px;
+  width: 600px;
+}
+
+
+
+
+body{
+  background-color: black;
+  display: grid;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+
+
+.container3{
+  width: 100em;
+  height: 100em;
+  background-image: url("https://www.holidaymonk.com/wp-content/uploads/2022/03/Nahargarh-Fort-Jaipur-Rajasthan.webp"),url('./Assets/Virushka.jpg');
+
+  background-image: linear-gradient(white,red,blue,black,orange);
+background-image: radial-gradient(blue white black orange green);
+background-image: conic-gradient(blue,red,orange,green);
+  background-repeat: no-repeat;
+  border: 2px solid white;
+}
+
+*/
+
+/*
+section{
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+
+/*
+section{
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center;
+}
+
+
+
+.section1{
+  background-image: url('https://www.mercedes-benz.com/content/dam/brandhub/assets/vehicles/g-class/g-class-mopf/stage/03-2024/images/mercedes-benz-g-class-mopf-stage-3840x2160-03-2024.cbv20240326090117.jpg/_jcr_content/renditions/mq7-original-aspect.jpeg');
+
+}
+
+.section2{
+  background-image: url('https://images.firstpost.com/wp-content/uploads/2022/06/Mahindra-Scorpio-N.jpg?im=FitAndFill=(1200,675)');
+
+}
+
+
+.section3{
+  background-image: url('https://www.cartoq.com/wp-content/uploads/2021/12/Thar-dieseltronic-featured.jpg');
+
+}
+
+.section4{
+  background-image: url('https://www.carandbike.com/_next/image?url=https%3A%2F%2Fimages.carandbike.com%2Fcms%2FSupra_45th_Anni_1_a1caab62a8.jpg&w=3840&q=75');
+
+}
+
+
+.section5{
+  background-image: url('https://newsroom.porsche.com/.imaging/mte/porsche-templating-theme/image_1290x726/dam/pnr/2023/Products/911-S-T/911-S-T-studio/S23_1162_fine.jpg/jcr:content/S23_1162_fine.jpg');
+
+}
+
+.section6{
+  background-image: url('https://static.toiimg.com/thumb/msid-103495932,width-1280,height-720,resizemode-4/103495932.jpg');
+
+}
+.section-7{
+  background-image: url('https://www.bmw.vn/content/dam/bmw/marketASIA/bmw_vn/PublicPools/teaser-pool/home/xm_secondteaser_new.png.asset.1701072170106.png');
+}
+
+
+
+.div4{
+  background-image: url('https://www.cartoq.com/wp-content/uploads/2021/12/Thar-dieseltronic-featured.jpg');
+  height: 400px;
+width: 500px;
+ 
+ /*background-repeat: repeat;
+ background-repeat: repeat-x;
+ border: 2px solid red;
+ background-repeat: repeat-y;
+ background-repeat: round;
+ background-position: center;
+ justify-content: center;
+}
+
+*/
+div{
+  background-color: aqua;
+  height: 100;
+  width: 100;
+}
+
+.div4{
+  background-image: url('https://www.cartoq.com/wp-content/uploads/2021/12/Thar-dieseltronic-featured.jpg');
+  height: 100%;
+  width: 100%;
+/*background-size: auto;
+border: 2px solid red;
+background-size: cover;
+background-size: contain;
+background-size: 100px,600px;*/
+
+/*background-position: top right;
+background-position: top left;
+background-position: bottom right;
+background-position: bottom left;
+background-position: center center;
+background-position: left center;
+background-position: right center;
+background-position: top center;*/
+background-position: bottom center;
+
+}
+ 
+ 
+
+
+
+

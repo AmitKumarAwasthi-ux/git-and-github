@@ -1,0 +1,133 @@
+
+/*
+
+div[title="div2"]{
+  background-color: brown;
+list-style-type: georgian;  
+background-color: deepskyblue;
+ color: aliceblue;
+ padding: 20px;
+ border-radius: 10px;
+ 
+}
+
+
+
+button[type=submit]{
+  background-color: blue;
+  color: white;
+  padding: 20px;
+  border-radius: 8px;
+  border: none;
+}
+
+button[type="reset"]{
+  background-color: rgb(255, 0, 0);
+  color: aquamarine;
+  padding: 20px;
+  border-radius: 10px;
+  border: none;
+ 
+}
+
+
+input[type="email"]{
+  outline: none;
+  color: crimson;
+}
+
+
+input[type="password"]:hover{
+  outline: none;
+  color: rgb(228, 246, 33);
+}
+
+input[type="text"]{
+  color: cadetblue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+button[type="submit"]{
+  background-color: rgb(23, 132, 196);
+  color: white;
+  border: none;
+  padding: 5px 40px;
+  border-radius: 2px;
+}
+button[type="reset"]{
+  background-color:rgb(167, 5, 5);
+  color: white;
+  border: none;
+  padding: 5px 40px;
+  border-radius: 2px;
+}
+
+input[type="email"]{
+  color: darkcyan;
+  outline: none;
+}
+input[type="password"]
+{
+  color: darkcyan;
+  outline: none;
+}
+
+
+
+
+
+
+
+
+
+p[class="para"]{
+  color: aquamarine;
+}
+
+*/
+
+
+
+
+
+article[id^="art"]{
+  font-size: 100px;
+  color: blueviolet;
+}
+
+
+
+
+
+
+
+h6[class$="header"]{
+  color: red;
+  font-style: italic;
+  font-size:100px;
+}
+
+
+
+p[class~="para"]{
+  color: rgb(208, 0, 255);
+}
+
+
+p[class*="para"]{
+  color: rgb(0, 255, 0);                ///priority first
+}

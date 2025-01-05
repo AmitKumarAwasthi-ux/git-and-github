@@ -1,0 +1,28 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  box-sizing: border-box;
+  height: 100vh;
+  width: 100vw;
+  background-image: url(../VOYAGER/Assets/voyager.webp);
+  position: relative;
+}
+
+.head{
+  height: 70px;
+  width: 100%;
+  background-color: transparent;
+  border-bottom: 1px solid rgb(239, 23, 23);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+}
+
+.head left img{
+    height: 40px;
+    width: 150px;
+}

@@ -1,0 +1,35 @@
+/*universal selector
+*{
+  color: burlywood;
+}
+
+
+/*Tag Name selector 
+div{
+  color: chocolate;
+}
+
+
+
+/*class Name selector
+
+.mydiv{
+  color: aqua;
+}
+
+
+/*id Name selector
+
+#id{
+  color: deeppink;
+}
+
+
+article>p{
+  color: chartreuse;
+}*/
+
+
+article~span,h4{
+  color: blueviolet;
+}

@@ -1,0 +1,107 @@
+div::first-letter{
+   color: coral;
+   font-style: italic;
+   font-size: 40px;
+}
+
+p::first-line{
+  color: fuchsia;
+  font-size: 50px;
+  font-style: italic;
+}
+
+
+
+/*p::selection{
+  color: cyan;
+}
+
+
+
+
+div::selection{
+  color: bisque;
+}
+
+
+*::selection{
+  color: rgb(64, 255, 0);
+}
+
+
+
+
+
+ul>li::marker{
+  content: "🤣";
+  font-size: 50px;
+}
+
+
+ul>li::marker{
+  content: ">";
+  font-size: 50px;
+}
+
+
+ul>li::marker{
+  content: "#";
+  font-size: 50px;
+}
+
+
+
+
+
+
+div::before{
+  content: "ram ram";
+  color: rgb(250, 106, 35);
+  font-size: larger;
+}
+
+
+
+div::after{
+  content: "sareyane";
+  color: aquamarine;
+  font-size: small;
+}
+
+
+
+
+////////inline block element......*/
+
+span::before{
+  content: "ram ram";
+  color: rgb(250, 106, 35);
+  font-size: larger;
+  display: inline-block;
+}
+
+
+span::after{
+  content: "sareyane";
+  color: aquamarine;
+  font-size: small;
+  display: inline-block;
+}
+
+
+
+span::before{
+
+  color: rgb(244, 21, 21);
+  font-size: 40px;
+
+}
+
+
+span::after{
+  
+  color: blue;
+  font-size: 40px;
+  
+}
+

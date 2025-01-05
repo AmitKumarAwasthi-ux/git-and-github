@@ -1,0 +1,99 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  box-sizing: border-box;
+  height: 100vh;
+  width: 100vw;
+  background-image: url(../RAZORPAY/Assets/raxor.png);
+  object-fit: cover;
+}
+.header{
+  height:7vh ;
+  width: 100vw;
+  /*background-color: rgb(225, 240, 240);*/
+  display: flex;
+  justify-content: space-evenly;
+  padding-block: 20px;
+  background-color: rgb(243, 245, 244);
+  border-bottom: 5px solid rgb(230, 230, 230);
+
+}
+
+.div10>button{
+  height:7vh;
+  width: 120px;
+  background-color: rgb(95, 95, 240);
+  border-radius: 8px;
+  color: white;
+  border: white 2px solid;
+  text-align: center;
+}
+
+.div10>button svg{
+  color: white;
+}
+
+.div9{
+  border: 1px solid blue;
+  border-radius: 3px;
+  height: 7vh;
+  width: 80px;
+  background-color: white;
+
+}
+
+
+
+
+.div9>a{
+  text-decoration: none;
+  color: blue;
+  align-items: center;
+}
+
+.header .img2 img{
+  height: 5vh;
+  width: 70px;
+}
+
+
+
+
+.para{
+  color: blue;
+  margin-left: 200px;
+  margin-top: 100px;
+  font-size: 30px;
+}
+.para2{
+  font-size: 30px;
+  color: black;
+  margin-left: 200px;
+  margin-top: 10px;
+  font-weight: 800;
+}
+p{
+  font-size: 20px;
+  margin-left: 200px;
+  margin-top: 30px;
+}
+
+button{
+  background-color: blue;
+  margin-top: 50px;
+  margin-left: 200px;
+  border-radius: 2px;
+  height: 50px;
+  width: 140px;
+  color: white;
+}
+
+div>a{
+  justify-content: space-around;
+  text-decoration: none;
+  color: blue;
+  padding-left: 10px;
+}
+

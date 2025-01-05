@@ -1,0 +1,43 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  height: 100vh;
+  width: 100vw;
+  box-sizing: border-box;
+}
+
+div{
+  height: 80vh;
+  width: 80vw;
+  margin: 20px;
+  background-color: rgb(137, 22, 245);
+  border: double 5px black;
+}
+
+div .box{
+  height: 50px;
+  width: 100px;
+  background-color: brown;
+  margin: 100px;
+  padding: 50px;
+  border: 3px dotted black;
+}
+
+
+div .box:hover{
+  background-color: chartreuse;
+  color: red;
+  border-radius: 100%;
+ /* transition-duration: 10s;
+  transition-property: all;
+  transition-timing-function: ease-in;
+  transition-delay: 3s;
+  align-items: center;
+  justify-content: center;*/
+
+ transition: all 10s ease-in-out 2s;
+}
+
